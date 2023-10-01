@@ -149,25 +149,25 @@
             </ul>
         </div>
     </main>
-    <script src="https://cdn.discordapp.com/attachments/1149779730363600919/1157857714811191396/popup.js" defer></script>
-    <script>
+    <script defer>
 
-const button = document.querySelector("#more");
-button.addEventListener("click", function() {
-    let bottomContainer = document.querySelector(".bottomContainer");
-    bottomContainer.style.opacity = "1";
-    bottomContainer.style.zIndex = "999";
-});
+    const button = document.querySelector("#more");
+    button.addEventListener("click", function() {
+        let bottomContainer = document.querySelector(".bottomContainer");
+        bottomContainer.style.opacity = "1";
+        bottomContainer.style.zIndex = "999";
+    });
 
-const close = document.querySelector("#close");
-close.addEventListener("click", function() {
-    let bottomContainer = document.querySelector(".bottomContainer");
-    bottomContainer.style.opacity = "0";
-    bottomContainer.style.zIndex = "-5";
-});
+    const close = document.querySelector("#close");
+    close.addEventListener("click", function() {
+        let bottomContainer = document.querySelector(".bottomContainer");
+        bottomContainer.style.opacity = "0";
+        bottomContainer.style.zIndex = "-5";
+    });
 
-const popimg = document.querySelector("#popimg");
-popimg.src = "https://cdn.discordapp.com/attachments/1149779730363600919/1157844506356498532/cyberscoutlogo.png";
+    const popimg = document.querySelector("#popimg");
+    popimg.src = "https://cdn.discordapp.com/attachments/1149779730363600919/1157844506356498532/cyberscoutlogo.png";
     </script>
+    <script src="https://cdn.discordapp.com/attachments/1149779730363600919/1157857714811191396/popup.js" defer></script>
 </body>
 </html>
